@@ -1,8 +1,13 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
 .main_wrap {
     margin: 0 auto;
     padding: 0;
     display: block;
-    width: 1020px;
+    width: 935px;
 }
 
 .footer {
@@ -10,129 +15,154 @@
     display: block;
     background-color: #2e3e4f;
     color: #86939a;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'UbuntuRegular:400', sans-serif;
     font-size: 14px;
 }
 
 h2 {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 26px;
     color: #f98561;
     font-family: "bebas_neue_regular", sans-serif;
-    font-stretch: condensed;
-    margin-bottom: 20px;
-}
+    font-stretch: ultra-condensed;
 
-.h2_contact {
-    text-transform: uppercase;
-    font-size: 25px;
-    color: #f98561;
-    font-family: "bebas_neue_regular", sans-serif;
-    font-stretch: condensed;
-    margin-bottom: 30px;
-    margin-top: 30px;
 }
 
 .info {
-    width: 1020px;
+    width: 935px;
     display: inline-block;
     text-align: left;
     font-size: 12px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-
+    line-height: 1.6;
 }
 
 
-.twitter {
+.twitter-footer {
     display: inline-block;
-    width: 230px;
-    margin-left: 0;
+    width: 214px;
     vertical-align: top;
+    margin: 35px 25px 25px 0;
 }
-.twitter_a {
+.twitter-f, .twitter-f_mod {
+    display: inline-block;
+    width: inherit;
+    border-bottom: 1px solid #556270;
+    padding: 14px 0 9px 0;
+}
+.twitter-f_mod {
+    display: inline-block;
+    width: inherit;
+    border-bottom: 1px solid #556270;
+    padding: 14px 0 10px 0;
+    border-bottom: none;
+}
+.twitter-href {
     text-decoration: none;
     color: #228bba;
+    text-transform: none;
 }
 
 
-.newsletter {
+.newsletter-footer {
     display: inline-block;
     width: 240px;
-    margin-right: 30px;
     vertical-align: top;
+    margin: 35px 40px 25px 0;
 }
-.newstyle {
-    line-height: 1.8em;
+.newsletter-text {
+    display: inline-block;
+    width: inherit;
+    border-bottom: 1px solid #556270;
+    padding: 14px 0 10px 0;
 }
-.style {
+.newsletter-form {
+    display: inline-block;
+    width: inherit;
+    padding: 9px 0 11px 0;
+}
+.style-news {
     text-transform: capitalize;
     color: #2190c1;
 }
-.style_email {
+.style-email {
     border-radius: 5px;
-    padding: 2px 35px;
-    margin-bottom: 10px;
+    padding: 4px 35px;
+    margin: 13px 0 10px 0;
 }
-.style_but {
+.style-but {
     text-transform: capitalize;
     color: #ffffff;
     background: #2190c1;
-    padding: 3px 9px;
-    border-radius: 5px;
-    margin-left: 175px;
+    padding: 4px 9px 4px 17px;
+    border-radius: 4px;
+    margin: 7px 0 0 166px;
 }
 
 
-.projects {
+.projects-footer {
     display: inline-block;
-    width: 245px;
+    width: 232px;
     text-transform: capitalize;
-    padding-right: 20px;
+    margin: 35px 9px 25px 0;
 }
-.projects_p {
+.projects-p {
     margin-left: 61px;
 }
-.image1, .image2, .image3{
-    float: left;
-    margin-right: 5px;
-}
-
-
-.contacts {
+.projects-img {
     display: inline-block;
-    width: 170px;
-    vertical-align: top;
-    padding-right: 25px;
-    line-height: 0.3em;
+    width: inherit;
+    padding: 15px 0 9px 0;
+    border-bottom: 1px solid #556270;
 }
-.contact_a {
-    text-decoration: none;
-    color: #86939a;
-
+.projects-img2 {
+    display: inline-block;
+    width: inherit;
+    padding: 11px 0 10px 0;
+    border-bottom: 1px solid #556270;
 }
-.contact_a2 {
-    text-decoration: none;
-    color: #86939a;
+.projects-img_mod {
+    display: inline-block;
+    width: inherit;
+    padding: 12px 0 10px 0;
+    border-bottom: none;
 }
-.image1a, .image2a, .image3a{
+.image-projects {
     float: left;
-    padding-right: 7px;
+    margin-right: 10px;
+}
 
+
+.contacts-footer {
+    display: inline-block;
+    width: 145px;
+    vertical-align: top;
+    margin: 35px 0 25px 0;
 }
-.style_contact {
-    margin-top: 25px;
-    margin-left: 10px;
+.contacts-img {
+    display: inline-block;
+    width: inherit;
+    padding-bottom: 20px;
 }
-.style_contact2 {
-    margin-bottom: 30px;
-    margin-left: 10px;
+.p-cnt {
+    margin-top: 13px;
 }
-.style_contact2a {
-    margin-top: 35px;
-    margin-left: 20px;
+.p-cnt2 {
+    margin-top: 1px;
 }
-.style_contact_2a {
-    margin-bottom: 10px;
-    margin-left: 40px;
+.contact-href {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #86939a;
+}
+.image-cnt1{
+    float: left;
+    padding: 13px 15px 0 0;
+}
+.image-cnt2 {
+    float: left;
+    padding: 0 6px 0 4px;
+}
+.image-cnt3 {
+    float: left;
+    padding: 10px 9px 0 0;
 }
