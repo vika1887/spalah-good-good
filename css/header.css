@@ -20,7 +20,7 @@
 
 .header {
     display: inline-block;
-    width: 1020px;
+    width: 935px;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 14px;
@@ -107,7 +107,7 @@ li {
     width: 95px;
     position: relative;
     top: 0;
-    margin-left: 85px;
+    margin-left: 63px;
     font-size: 12px;
 }
 .search-a {
