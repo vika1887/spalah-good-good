@@ -15,13 +15,13 @@
     width: 100%;
     display: block;
     color: #7f858c;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .header {
     display: inline-block;
     width: 1020px;
     text-transform: capitalize;
-    font-family: 'UbuntuRegular:400', sans-serif;
     font-weight: 600;
     font-size: 14px;
     margin: 0 auto;
@@ -42,17 +42,15 @@
 .navigation {
     display: inline-block;
     list-style-type: none;
-    margin: 0 0 0 313px;
+    margin-left: 313px;
 }
 .navigation-a  {
     text-decoration: none;
     padding: 36px 17px 15px 17px;
     position: relative;
     color: #515862;
-    font-family: 'UbuntuRegular:400', sans-serif;
     font-size: 14px;
-    margin: 0 15px 0 0;
-    transition: 0.2s;
+    margin-right: 15px;
 }
 .navigation-a::after {
     content: '';
@@ -75,7 +73,7 @@
 }
 li {
     display: inline-block;
-    margin-right: 0;
+    margin-right: 5px;
 }
 .navigation li a {
      display: block;
@@ -96,7 +94,7 @@ li {
     padding: 4px 19px 5px 18px;
     color: #7f858c;
     text-decoration: none;
-    margin: 0 0 0 -8px;
+    margin-left: -8px;
     border-bottom: none;
 }
 .navigation li:nth-child(5) a:hover {
@@ -119,7 +117,7 @@ li {
     background-color: transparent;
     position: absolute;
     top: -12px;
-    right: 15px;
+    right: 20px;
 }
 .search-a:hover {
     border-radius: 100%;

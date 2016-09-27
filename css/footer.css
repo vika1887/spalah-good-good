@@ -15,7 +15,7 @@
     display: block;
     background-color: #2e3e4f;
     color: #86939a;
-    font-family: 'UbuntuRegular:400', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
 }
 
@@ -23,9 +23,8 @@ h2 {
     text-transform: uppercase;
     font-size: 26px;
     color: #f98561;
-    font-family: "bebas_neue_regular", sans-serif;
+    font-family: "BebasNeue Regular", sans-serif;
     font-stretch: ultra-condensed;
-
 }
 
 .info {
@@ -39,9 +38,9 @@ h2 {
 
 .twitter-footer {
     display: inline-block;
-    width: 214px;
+    width: 218px;
     vertical-align: top;
-    margin: 35px 25px 25px 0;
+    margin: 35px 19px 25px 0;
 }
 .twitter-f, .twitter-f_mod {
     display: inline-block;
