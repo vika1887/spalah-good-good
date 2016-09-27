@@ -21,10 +21,10 @@
 
 h2 {
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 30px;
     color: #f98561;
-    font-family: "BebasNeue Regular", sans-serif;
-    font-stretch: ultra-condensed;
+    font-family: 'Bebas Neue', sans-serif;
+
 }
 
 .info {
@@ -46,13 +46,13 @@ h2 {
     display: inline-block;
     width: inherit;
     border-bottom: 1px solid #556270;
-    padding: 14px 0 9px 0;
+    padding: 7px 0 13px 0;
 }
 .twitter-f_mod {
     display: inline-block;
     width: inherit;
     border-bottom: 1px solid #556270;
-    padding: 14px 0 10px 0;
+    padding: 7px 0 10px 0;
     border-bottom: none;
 }
 .twitter-href {
@@ -72,7 +72,7 @@ h2 {
     display: inline-block;
     width: inherit;
     border-bottom: 1px solid #556270;
-    padding: 14px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 .newsletter-form {
     display: inline-block;
@@ -100,7 +100,7 @@ h2 {
 
 .projects-footer {
     display: inline-block;
-    width: 232px;
+    width: 235px;
     text-transform: capitalize;
     margin: 35px 9px 25px 0;
 }
@@ -110,7 +110,7 @@ h2 {
 .projects-img {
     display: inline-block;
     width: inherit;
-    padding: 15px 0 9px 0;
+    padding: 10px 0 9px 0;
     border-bottom: 1px solid #556270;
 }
 .projects-img2 {
@@ -127,7 +127,7 @@ h2 {
 }
 .image-projects {
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 
@@ -140,7 +140,7 @@ h2 {
 .contacts-img {
     display: inline-block;
     width: inherit;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 .p-cnt {
     margin-top: 13px;
@@ -155,7 +155,7 @@ h2 {
 }
 .image-cnt1{
     float: left;
-    padding: 13px 15px 0 0;
+    padding: 8px 15px 0 0;
 }
 .image-cnt2 {
     float: left;
