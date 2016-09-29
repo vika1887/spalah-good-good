@@ -5,7 +5,6 @@
 }
 .main_wrap {
     margin: 0 auto;
-    padding: 0;
     display: block;
     width: 935px;
 }
@@ -29,7 +28,6 @@
 }
 
 .logo {
-    display: inline-block;
     width: 136px;
     height: 21px;
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAAVCAMAAACqnFb9AAABAlBMVEVgYGD////5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWFgYGD5hWH5hWH5hWH5hWH5hWFgYGD5hWH5hWH5hWFgYGD5hWH5hWFgYGD5hWH5hWH5hWFgYGD5hWH5hWH5hWFgYGD5hWH5hWH5hWEjr8hgYGD5hWH5hWH5hWH5hWH5hWH5hWFgYGD5hWH5hWFgYGD5hWEjr8j5hWEjr8j5hWH5hWFgYGD5hWH5hWFgYGD5hWEjr8j5hWH5hWFgYGD5hWH5hWH5hWFgYGAjr8j5hWH5hWH5hWH5hWFgYGD5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWEjr8hgYGD5hWHnTKs4AAAAU3RSTlMAAAMFBgcICQoLDA8RExgZGx8iIiYnMzM7RElRVFVdX2VmZnJ2d3d7fYKDhYaIiY+Znp+fp6epqqyvu72/xcfM0tXY3d/j5ers7vHz9PX4+fv8/khGUEwAAAJBSURBVHgBxZVrc85AGIbvRR1YB6EhKgi6KK+GlrAtUXGwDrTc+///is2+ad9kM5PkQ9X1YeeZZ+7ZXLP7JIHwLN149Gxj/fZF8d/wIicffrGe3RdXmv7q84DVIxC5umMP+HFLeLb/BGz/e5Hlz7bF77vDIgkdCooOjEOHxhTE6fe2w971QZG4JKsMWUUWGMfFOJsmsmYDdo4NiUAa5gA0FabAiTmc+WpDVgZFoMgICY0E4sKwTH2L7TU1rNJAZJF2ZJqsigxAlLtsLoGbtsfLYRFpqOYHEpNlSc4vCs2autWQVIHIIg3kpNZeO3Yariol1m2Pj8MiUDSpP5CKOZDXpSKBxZpjFoq00wlL2aQrFl5R4ZXtc3xYRBqa5kAivyahiESqkkCklS6YNumYjAHX0Hht+5wdFoGiP5CMbB4VivSHtZM2lE3ON+flhu3xXYyIyPkrqaaLdNOLp6tFec/2eDsm4ndrbZ2NishOmn2RCsu2x4OJIgkZw1/zqAjZTms/I7ODJgoWEFs24OeliSIwLPyg+QFIIKshkVZasYyQsf3WJBDXdgORx2JExH+NdF34L4OJgcjQaGPIMs5KUmWYE+VsaKdlSYepm2m9FZkDQty3Hd6cGBNRrIEjdRsX8X6VR1rrWLf/cwn36aSl0kWmfDPRzq/2dnuvdTzOiWGRQyBJIvgLQgvhWPlkG349XRKezQ8Bm4co4udGVpyFIuLUna1v1u69e3JZDHNYItTa0EShiOf8BT8cRyGinAWrvOPxF1zvZO6BvK5uAAAAAElFTkSuQmCC");
@@ -73,7 +71,7 @@
 }
 li {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 3px;
 }
 .navigation li a {
      display: block;
@@ -104,10 +102,10 @@ li {
 }
 .search {
     display: inline-block;
-    width: 95px;
+    width: 80px;
     position: relative;
     top: 0;
-    margin-left: 63px;
+    margin-left: 88px;
     font-size: 12px;
 }
 .search-a {
@@ -117,7 +115,7 @@ li {
     background-color: transparent;
     position: absolute;
     top: -12px;
-    right: 20px;
+    right: 3px;
 }
 .search-a:hover {
     border-radius: 100%;

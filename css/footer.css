@@ -5,7 +5,6 @@
 }
 .main_wrap {
     margin: 0 auto;
-    padding: 0;
     display: block;
     width: 935px;
 }
@@ -19,15 +18,14 @@
     font-size: 14px;
 }
 
-h2 {
+.name-footer {
     text-transform: uppercase;
     font-size: 30px;
     color: #f98561;
     font-family: 'Bebas Neue', sans-serif;
-
 }
 
-.info {
+.information-f {
     width: 935px;
     display: inline-block;
     text-align: left;
@@ -49,10 +47,6 @@ h2 {
     padding: 7px 0 13px 0;
 }
 .twitter-f_mod {
-    display: inline-block;
-    width: inherit;
-    border-bottom: 1px solid #556270;
-    padding: 7px 0 10px 0;
     border-bottom: none;
 }
 .twitter-href {
