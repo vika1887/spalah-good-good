@@ -30,21 +30,20 @@
 .logo {
     width: 136px;
     height: 21px;
+    display: inline-block;
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAAVCAMAAACqnFb9AAABAlBMVEVgYGD////5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWFgYGD5hWH5hWH5hWH5hWH5hWFgYGD5hWH5hWH5hWFgYGD5hWH5hWFgYGD5hWH5hWH5hWFgYGD5hWH5hWH5hWFgYGD5hWH5hWH5hWEjr8hgYGD5hWH5hWH5hWH5hWH5hWH5hWFgYGD5hWH5hWFgYGD5hWEjr8j5hWEjr8j5hWH5hWFgYGD5hWH5hWFgYGD5hWEjr8j5hWH5hWFgYGD5hWH5hWH5hWFgYGAjr8j5hWH5hWH5hWH5hWFgYGD5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWH5hWEjr8hgYGD5hWHnTKs4AAAAU3RSTlMAAAMFBgcICQoLDA8RExgZGx8iIiYnMzM7RElRVFVdX2VmZnJ2d3d7fYKDhYaIiY+Znp+fp6epqqyvu72/xcfM0tXY3d/j5ers7vHz9PX4+fv8/khGUEwAAAJBSURBVHgBxZVrc85AGIbvRR1YB6EhKgi6KK+GlrAtUXGwDrTc+///is2+ad9kM5PkQ9X1YeeZZ+7ZXLP7JIHwLN149Gxj/fZF8d/wIicffrGe3RdXmv7q84DVIxC5umMP+HFLeLb/BGz/e5Hlz7bF77vDIgkdCooOjEOHxhTE6fe2w971QZG4JKsMWUUWGMfFOJsmsmYDdo4NiUAa5gA0FabAiTmc+WpDVgZFoMgICY0E4sKwTH2L7TU1rNJAZJF2ZJqsigxAlLtsLoGbtsfLYRFpqOYHEpNlSc4vCs2autWQVIHIIg3kpNZeO3Yariol1m2Pj8MiUDSpP5CKOZDXpSKBxZpjFoq00wlL2aQrFl5R4ZXtc3xYRBqa5kAivyahiESqkkCklS6YNumYjAHX0Hht+5wdFoGiP5CMbB4VivSHtZM2lE3ON+flhu3xXYyIyPkrqaaLdNOLp6tFec/2eDsm4ndrbZ2NishOmn2RCsu2x4OJIgkZw1/zqAjZTms/I7ODJgoWEFs24OeliSIwLPyg+QFIIKshkVZasYyQsf3WJBDXdgORx2JExH+NdF34L4OJgcjQaGPIMs5KUmWYE+VsaKdlSYepm2m9FZkDQty3Hd6cGBNRrIEjdRsX8X6VR1rrWLf/cwn36aSl0kWmfDPRzq/2dnuvdTzOiWGRQyBJIvgLQgvhWPlkG349XRKezQ8Bm4co4udGVpyFIuLUna1v1u69e3JZDHNYItTa0EShiOf8BT8cRyGinAWrvOPxF1zvZO6BvK5uAAAAAElFTkSuQmCC");
     background-size:cover;
-    position: absolute;
-    top: 35px;
-    left: 210px;
+    margin-bottom: -4px;
 }
 
 .navigation {
     display: inline-block;
     list-style-type: none;
-    margin-left: 313px;
+    margin-left: 169px;
 }
 .navigation-a  {
     text-decoration: none;
-    padding: 36px 17px 15px 17px;
+    padding: 24px 17px 15px 17px;
     position: relative;
     color: #515862;
     font-size: 14px;
@@ -58,7 +57,7 @@
     margin-left: -22px;
     bottom: 0;
     border: 10px solid transparent;
-    border-bottom: 10px solid #0080b7;
+    border-bottom: 8px solid #0080b7;
 }
 .navigation-a:hover:after  {
     display: block;
@@ -75,7 +74,7 @@ li {
 }
 .navigation li a {
      display: block;
-     padding: 37px 15px 20px;
+     padding: 24px 15px 20px;
      color: #7f858c;
      position: relative;
      text-decoration: none;
@@ -102,7 +101,7 @@ li {
 }
 .search {
     display: inline-block;
-    width: 80px;
+    width: 84px;
     position: relative;
     top: 0;
     margin-left: 88px;
@@ -111,11 +110,11 @@ li {
 .search-a {
     border-radius: 100%;
     border: transparent;
-    padding: 7px;
+    padding: 6px;
     background-color: transparent;
     position: absolute;
     top: -12px;
-    right: 3px;
+    right: 7px;
 }
 .search-a:hover {
     border-radius: 100%;
