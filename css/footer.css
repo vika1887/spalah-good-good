@@ -62,7 +62,7 @@
     display: inline-block;
     width: inherit;
     border-bottom: 1px solid #556270;
-    padding: 10px 0 10px 0;
+	padding: 10px 0 10px 0;
 }
 .newsletter-form {
     display: inline-block;
